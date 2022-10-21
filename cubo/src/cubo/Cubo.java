@@ -13,9 +13,6 @@ public class Cubo {
 		this.tinta = tinta;
 	}
 
-	//metodos
-
-
 	public double getA() {
 		return a;
 	}
