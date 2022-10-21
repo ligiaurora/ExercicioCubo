@@ -23,28 +23,33 @@ public class Cubo {
 		this.a = a;
 	}
 
-
-
 	public double getM() {
 		return m;
 	}
-
-
 
 	public void setM(double m) {
 		this.m = m;
 	}
 
-
-
 	public int getTinta() {
 		return tinta;
 	}
 
-
-
 	public void setTinta(int tinta) {
 		this.tinta = tinta;
 	}
-	
+
+	@Override
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		builder.append("Cubo [a=");
+		builder.append(a);
+		builder.append(", m=");
+		builder.append(m);
+		builder.append(", tinta=");
+		builder.append(tinta);
+		builder.append("]");
+		return builder.toString();
+	}
+
 }
