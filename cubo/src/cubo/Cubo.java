@@ -1,4 +1,5 @@
 package cubo;
+import java.lang.Math; 
 
 public class Cubo {
 
@@ -7,7 +8,6 @@ public class Cubo {
 	private int tinta;
 	
 	public Cubo(double a, double m, int tinta) {
-		super();
 		this.a = a;
 		this.m = m;
 		this.tinta = tinta;
